@@ -52,7 +52,7 @@ export const links = [
 // ];
 
 
-export const featured = [
+export const Process = [
     {
         id: 1,
         // icon: IoBrushSharp,

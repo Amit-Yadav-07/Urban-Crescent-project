@@ -1,12 +1,18 @@
 import React from 'react'
 import Banner from './Banner'
-import FeaturedProject from './FeaturedProject'
+import OurProcess from './OurProcess'
+import Featured from './Featured'
+import Card from './Card'
+import HomeAbout from './HomeAbout'
 
 const Home = () => {
     return (
         <div>
             <Banner />
-            <FeaturedProject />
+            <Featured />
+            <Card />
+            <HomeAbout />
+            <OurProcess />
         </div>
     )
 }

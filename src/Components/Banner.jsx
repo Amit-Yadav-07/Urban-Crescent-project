@@ -12,8 +12,8 @@ const Banner = () => {
             </section>
             <div className='overlay-section'>
                 <h1 className='text-7xl  w-[70%] text-white'>Welcome to Urban Crescent</h1>
-                <p className='w-[70%]' style={{ padding: '1.2rem 0px' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente amet minus voluptas debitis sed unde?</p>
-                <Btn text='Explore Our Design' />
+                <p className='w-[70%] text-white' style={{ padding: '1.2rem 0px' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente amet minus voluptas debitis sed unde?</p>
+                <Btn text='Explore Our Design'  />
             </div>
         </>
     )
