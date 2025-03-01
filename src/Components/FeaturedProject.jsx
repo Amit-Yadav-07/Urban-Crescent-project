@@ -11,14 +11,14 @@ const FeaturedProject = () => {
                 {featured.map((item) => {
                     console.log(item.icon)
                     return (
-                        <>
-                            <div className="bg-white text-black shadow-lg text-center h-[auto] rounded-sm" style={{ padding: '1rem' }}>
-                                <div className='flex justify-center'><IoBrushSharp className='text-4xl text-[#8b7d6b]' /></div>
-                                <h3 className='text-1xl font-bold' style={{ padding: '0.5rem' }}>{item.heading}</h3>
-                                <p>{item.para}</p>
-                                <Btn text={item.btnText} />
-                            </div>
-                        </>
+
+                        <div className="bg-white text-black shadow-lg text-center h-[auto] rounded-sm" style={{ padding: '1rem' }} key={item.id}>
+                            <div className='flex justify-center'><IoBrushSharp className='text-4xl text-[#8b7d6b]' /></div>
+                            <h3 className='text-1xl font-bold' style={{ padding: '0.5rem' }}>{item.heading}</h3>
+                            <p>{item.para}</p>
+                            <Btn text={item.btnText} />
+                        </div>
+
                     )
                 })}
 

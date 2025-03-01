@@ -75,7 +75,7 @@ export const featured = [
         btnText: 'Read More'
     },
     {
-        id: 3,
+        id: 4,
         // icon: <IoBrushSharp />,
         heading: 'Top Quality',
         para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,',
