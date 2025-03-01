@@ -82,3 +82,22 @@ export const Process = [
         btnText: 'Read More'
     }
 ]
+
+export const imgGrid = [
+    {
+        id: 1,
+        img: 'https://images.pexels.com/photos/3097112/pexels-photo-3097112.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+        id: 2,
+        img: 'https://images.pexels.com/photos/534172/pexels-photo-534172.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+        id: 3,
+        img: 'https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+        id: 4,
+        img: 'https://images.pexels.com/photos/534172/pexels-photo-534172.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+]

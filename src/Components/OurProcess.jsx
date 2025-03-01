@@ -10,7 +10,6 @@ const OurProcess = () => {
             <h2 className='text-center text-5xl'>Our Process</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 featured-container">
                 {Process.map((item) => {
-                    console.log(item.icon)
                     return (
 
                         <div className="text-black shadow-lg text-center h-[auto] rounded-sm" style={{ padding: '1rem' }} key={item.id}>
@@ -22,10 +21,6 @@ const OurProcess = () => {
 
                     )
                 })}
-
-                {/* <div className="bg-white p-6 shadow-lg rounded-lg text-center">Column 2</div>
-                <div className="bg-white p-6 shadow-lg rounded-lg text-center">Column 3</div>
-                <div className="bg-white p-6 shadow-lg rounded-lg text-center">Column 4</div> */}
             </div>
         </>
     )
