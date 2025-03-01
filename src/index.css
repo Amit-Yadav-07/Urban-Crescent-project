@@ -42,10 +42,10 @@ nav {
 
 .nav-container {
   background-color: var(--secondary-color);
-  position: fixed;
+  position: sticky;
   z-index: 10;
   top: 0%;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
   height: auto;
   width: 100%;
 }
@@ -57,21 +57,21 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: var(--primary-color);
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
 }
 .nav-toggle:hover {
-  color: var(--clr-primary-1);
+  color: var(--primary-color);
   transform: rotate(90deg);
 }
 .logo {
   height: 40px;
 }
 .links a {
-  color: var(--clr-grey-3);
+  color: var(--primary-color);
   font-size: 1.2rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -80,8 +80,8 @@ nav {
   transition: var(--transition);
 }
 .links a:hover {
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  background: var(--primary-color);
+  color: var(--primary-color);
   padding-left: 1.5rem;
 }
 .social-icons {
@@ -129,11 +129,11 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: var(--clr-primary-5);
+    color: var(--primary-color);
     transition: var(--transition);
   }
   .social-icons a:hover {
-    color: var(--clr-primary-7);
+    color: var(--primary-color);
   }
 }
 
