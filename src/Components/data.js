@@ -2,7 +2,10 @@
 import React from 'react';
 import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
-import { IoBrushSharp } from "react-icons/io5";
+import img1 from '../assets/images/01.gif'
+import img2 from '../assets/images/02.gif'
+import img3 from '../assets/images/03.gif'
+import img4 from '../assets/images/04.gif'
 
 export const links = [
     {
@@ -55,29 +58,29 @@ export const links = [
 export const Process = [
     {
         id: 1,
-        // icon: IoBrushSharp,
-        heading: 'Modern Design',
+        img: img1,
+        heading: 'BRIEFING',
         para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,',
         btnText: 'Read More'
     },
     {
         id: 2,
-        // icon: IoBrushSharp,
-        heading: 'Outdoor Solutions',
+        img: img2,
+        heading: 'DESIGN',
         para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,',
         btnText: 'Read More'
     },
     {
         id: 3,
-        // icon: <IoBrushSharp />,
-        heading: 'Environment Friendly',
+        img: img3,
+        heading: 'EXECUTION',
         para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,',
         btnText: 'Read More'
     },
     {
         id: 4,
-        // icon: <IoBrushSharp />,
-        heading: 'Top Quality',
+        img: img4,
+        heading: 'HANDOVER',
         para: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,',
         btnText: 'Read More'
     }

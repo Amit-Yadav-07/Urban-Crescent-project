@@ -6,7 +6,7 @@ const HomeAbout = () => {
             <hr className='text-black' style={{ margin: '4rem 0px' }} />
             <div className="flex flex-col md:flex-row gap-5">
                 <div className="flex-1 self-center text-black">
-                    <h3 className='text-4xl'>About Us</h3>
+                    <h3 className='text-5xl' style={{marginBottom:"3rem"}}>About Us</h3>
                     <p className=''>Essajees Atelier is a global design company offering end-to-end services in the realm of luxury interiors. We pride ourselves on our unmatched aesthetic and attention to detail, which we bring in at every stage – from planning to handovers.</p><br />
                     <p>We take on a select number of clients; we see ourselves as your partners right from the beginning and craft all our projects from scratch.</p>
                 </div>
