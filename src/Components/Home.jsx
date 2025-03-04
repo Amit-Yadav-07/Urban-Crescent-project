@@ -6,6 +6,8 @@ import Card from './Card'
 import HomeAbout from './HomeAbout'
 import HomeVideo from './HomeVideo'
 import BeforeAfter from './BeforeAfter'
+import HomePortfolio from './HomePortfolio'
+import HomeTestimonials from './HomeTestimonials'
 
 const Home = () => {
     return (
@@ -17,6 +19,8 @@ const Home = () => {
             <HomeVideo />
             <OurProcess />
             <BeforeAfter />
+            <HomePortfolio />
+            <HomeTestimonials />
         </div>
     )
 }

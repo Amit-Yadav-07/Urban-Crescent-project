@@ -22,11 +22,8 @@ const Featured = () => {
                     </div>
                 </div>
             </div>
-
-
-
         </>
     )
 }
 
-export default Featured
+export default Featured;

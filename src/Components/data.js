@@ -89,18 +89,51 @@ export const Process = [
 export const imgGrid = [
     {
         id: 1,
-        img: 'https://images.pexels.com/photos/3097112/pexels-photo-3097112.jpeg?auto=compress&cs=tinysrgb&w=600'
+        img: 'https://images.pexels.com/photos/3097112/pexels-photo-3097112.jpeg?auto=compress&cs=tinysrgb&w=600',
+        text: 'Residential'
     },
     {
         id: 2,
-        img: 'https://images.pexels.com/photos/534172/pexels-photo-534172.jpeg?auto=compress&cs=tinysrgb&w=600'
+        img: 'https://images.pexels.com/photos/534172/pexels-photo-534172.jpeg?auto=compress&cs=tinysrgb&w=600',
+        text: 'Furniture'
     },
     {
         id: 3,
-        img: 'https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg?auto=compress&cs=tinysrgb&w=600'
+        img: 'https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg?auto=compress&cs=tinysrgb&w=600',
+        text: 'Commercial'
     },
     {
         id: 4,
-        img: 'https://images.pexels.com/photos/534172/pexels-photo-534172.jpeg?auto=compress&cs=tinysrgb&w=600'
+        img: 'https://images.pexels.com/photos/534172/pexels-photo-534172.jpeg?auto=compress&cs=tinysrgb&w=600',
+        text: 'Residential'
+    },
+]
+
+
+export const Testimonials = [
+    {
+        id: 1,
+        name: 'alex',
+        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquam id aspernatur ipsa architecto voluptatibus in amet perferendis nihil! Praesentium laborum hic necessitatibus dicta quas!'
+    },
+    {
+        id: 2,
+        name: 'peter',
+        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquam id aspernatur ipsa architecto voluptatibus in amet perferendis nihil! Praesentium laborum hic necessitatibus dicta quas!'
+    },
+    {
+        id: 3,
+        name: 'anna',
+        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquam id aspernatur ipsa architecto voluptatibus in amet perferendis nihil! Praesentium laborum hic necessitatibus dicta quas!'
+    },
+    {
+        id: 4,
+        name: 'john',
+        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquam id aspernatur ipsa architecto voluptatibus in amet perferendis nihil! Praesentium laborum hic necessitatibus dicta quas!'
+    },
+    {
+        id: 5,
+        name: 'Doe',
+        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquam id aspernatur ipsa architecto voluptatibus in amet perferendis nihil! Praesentium laborum hic necessitatibus dicta quas!'
     },
 ]
