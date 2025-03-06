@@ -7,7 +7,7 @@ const Featured = () => {
         <>
             <div className='section-center'>
                 <SubHeading text='Award winning global luxury design company, crafting unique spaces since 2014' />
-                <div className="flex flex-col md:flex-row gap-4 featured-container " style={{ marginTop: '3rem' }}>
+                <div className="flex flex-col xl:flex-row gap-4 featured-container " style={{ marginTop: '3rem' }}>
                     <div className="md:flex-1  p-6 rounded-lg lg:text-end text-center self-center">
                         <h3 className='text-3xl text-[#8b7d6b] font-bold'>Featured Projects</h3>
                     </div>

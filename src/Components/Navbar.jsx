@@ -4,8 +4,7 @@ import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { links } from './data';
 import { Link } from 'react-router-dom';
 import { FaFacebook } from "react-icons/fa";
-
-// import logo from './logo.svg';
+import Logo from '../assets/images/UC-logo.png'
 
 const Navbar = () => {
     const [showLinks, setShowLinks] = useState(false);
@@ -26,8 +25,7 @@ const Navbar = () => {
         <nav className='nav-container'>
             <div className='nav-center'>
                 <div className='nav-header'>
-                    {/* <img src= className='logo' alt='logo' /> */}
-                    <Link><h3 className='text-3xl text-white'>Urban Crescent</h3></Link>
+                    <Link to='/'><img src={Logo} className='logo object-contain' alt='logo' /></Link>
 
                     <button className='nav-toggle' onClick={toggleLinks}>
                         <FaBars />

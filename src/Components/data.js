@@ -114,26 +114,40 @@ export const Testimonials = [
     {
         id: 1,
         name: 'alex',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquam id aspernatur ipsa architecto voluptatibus in amet perferendis nihil! Praesentium laborum hic necessitatibus dicta quas!'
+        message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt reiciendis quas ducimus nobis non quam aliquid ab ipsum amet quia, perferendis nostrum repudiandae ut rem assumenda eius, deleniti consectetur culpa.'
     },
     {
         id: 2,
         name: 'peter',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquam id aspernatur ipsa architecto voluptatibus in amet perferendis nihil! Praesentium laborum hic necessitatibus dicta quas!'
+        message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt reiciendis quas ducimus nobis non quam aliquid ab ipsum amet quia, perferendis nostrum repudiandae ut rem assumenda eius, deleniti consectetur culpa.'
     },
     {
         id: 3,
         name: 'anna',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquam id aspernatur ipsa architecto voluptatibus in amet perferendis nihil! Praesentium laborum hic necessitatibus dicta quas!'
+        message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt reiciendis quas ducimus nobis non quam aliquid ab ipsum amet quia, perferendis nostrum repudiandae ut rem assumenda eius, deleniti consectetur culpa.'
     },
     {
         id: 4,
         name: 'john',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquam id aspernatur ipsa architecto voluptatibus in amet perferendis nihil! Praesentium laborum hic necessitatibus dicta quas!'
+        message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt reiciendis quas ducimus nobis non quam aliquid ab ipsum amet quia, perferendis nostrum repudiandae ut rem assumenda eius, deleniti consectetur culpa.'
     },
     {
         id: 5,
         name: 'Doe',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquam id aspernatur ipsa architecto voluptatibus in amet perferendis nihil! Praesentium laborum hic necessitatibus dicta quas!'
+        message: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt reiciendis quas ducimus nobis non quam aliquid ab ipsum amet quia, perferendis nostrum repudiandae ut rem assumenda eius, deleniti consectetur culpa.'
     },
+]
+
+
+export const PortfolioSection = [
+    { id: 1, image: 'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
+    { id: 2, image: 'https://images.pexels.com/photos/53577/hotel-architectural-tourism-travel-53577.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
+    { id: 3, image: 'https://images.pexels.com/photos/1454804/pexels-photo-1454804.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
+    { id: 4, image: 'https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
+    { id: 5, image: 'https://images.pexels.com/photos/210464/pexels-photo-210464.jpeg?auto=compress&cs=tinysrgb&w=600https://images.pexels.com/photos/210464/pexels-photo-210464.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
+    { id: 6, image: 'https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
+    { id: 7, image: 'https://images.pexels.com/photos/189333/pexels-photo-189333.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
+    { id: 8, image: 'https://images.pexels.com/photos/90319/pexels-photo-90319.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
+    { id: 9, image: 'https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
+    { id: 10, image: 'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
 ]

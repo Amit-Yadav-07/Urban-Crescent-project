@@ -12,7 +12,8 @@ const HomeTestimonials = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true
+        autoplay: true,
+        pauseOnHover: true
     };
 
     return (
@@ -23,9 +24,9 @@ const HomeTestimonials = () => {
                 <Slider {...settings}>
                     {Testimonials.map((items) => {
                         return (
-                            <div className='bg-indigo-400 h-[400px] flex justify-center' key={items.id}>
-                                <h3 className='text-black text-4xl'>{items.name}</h3>
-                                <p>{items.message}</p>
+                            <div className='bg-gray-50 grid place-content-center place-items-center w-[60%] min-h-[300px] max-[auto]: rounded-sm' key={items.id}>
+                                <h3 className='text-[#8b7d6b] text-6xl capitalize w-[60%] text-center' style={{ marginBottom: '1rem' }}>{items.name}</h3>
+                                <p className='text-black text-7xl w-[60%] text-center'>{items.message}</p>
                             </div>
                         )
                     })}

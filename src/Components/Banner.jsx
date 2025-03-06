@@ -13,7 +13,7 @@ const Banner = () => {
                 <div className='overlay-section'>
                     <h1 className='text-7xl w-[70%] text-white'>Welcome to Urban Crescent</h1>
                     <p className='w-[70%] text-white' style={{ padding: '1.2rem 0px' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente amet minus voluptas debitis sed unde?</p>
-                    <button className='btn btn-outline button' style={{ padding: '1.5rem 1rem', fontSize: '1.2rem' }}>Explore Our Design</button>
+                    <button className='btn btn-outline button' style={{ padding: '1.5rem 1rem', fontSize: '1.2rem', color: 'white' }}>Explore Our Design</button>
                 </div>
 
             </section>
