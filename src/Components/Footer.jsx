@@ -6,12 +6,10 @@ const Footer = () => {
     return (
         <>
             <footer className="footer sm:footer-horizontal text-base-content">
-                <div className="section-center flex flex-col md:flex-row">
+                <div className="section-center flex flex-col md:flex-row text-white">
 
-                    <address className='flex-2 text-3xl text-center self-center' style={{ padding: '2rem' }}>Essajees Atelier design LLP, 1st floor, Udyog <br />
-                        Bhavan, 29, Walchand Hirachand <br />
-                        Marg, Ballard Estate, Fort, <br />
-                        Mumbai – 400 038
+                    <address className='flex-2 text-3xl text-center self-center' style={{ padding: '2rem' }}>
+                        820, Omaxe New Hazratganj <br /> Sec-6, GOMTINAGAR - 226022
                     </address>
 
 

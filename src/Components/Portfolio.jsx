@@ -6,13 +6,13 @@ const Portfolio = () => {
     return (
         <>
             <SubHeading text='Our Portfolio' />
-            <section className='section-center' style={{ margin: '0rem auto' }}>
+            <section className='section-center' style={{ margin: '0rem auto 3rem auto' }}>
                 <div className="columns-1 md:columns-2 xl:columns-3 gap-5">
 
                     {PortfolioSection.map((items) => {
                         return (
-                            <figure className="" style={{ marginBottom: '1.6rem', padding: '0.4rem' }} key={items.id}>
-                                <img className="h-auto max-w-full rounded-lg" src={items.image} alt="Gallery-image" />
+                            <figure className="" style={{ marginBottom: '1.6rem' }} key={items.id}>
+                                <img className="h-auto max-w-full rounded-lg" src={items.image} alt="Gallery-image" loading='lazy' />
                             </figure>
                         )
                     })}
