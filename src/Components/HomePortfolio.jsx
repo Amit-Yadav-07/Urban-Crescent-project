@@ -4,7 +4,7 @@ import { HomeGallery } from './data'
 const HomePortfolio = () => {
     return (
         <div className='section-center text-center'>
-            <h5 className='text-gray-400 text-center text-3xl'>Explore</h5>
+            <h3 className='text-gray-400 text-center text-3xl'>Explore</h3>
             <h3 className='text-black text-4xl'>Our Latest interior Designs</h3>
             <p className='text-black'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ipsam.</p>
 

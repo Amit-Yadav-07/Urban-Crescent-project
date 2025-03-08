@@ -20,13 +20,13 @@ const HomeTestimonials = () => {
         <div className='section-center'>
             <SubHeading text='What Our Client Says' />
             {/*  */}
-            <div className="slider-containe w-[70%]" style={{ margin: '0px auto 3rem auto', }}>
+            <div className="md:w-[70%] bg-gray-50 rounded-md" style={{ margin: '0px auto 3rem auto' }}>
                 <Slider {...settings}>
                     {Testimonials.map((items) => {
                         return (
-                            <div className='grid place-content-center place-items-center w-[60%] min-h-[300px] max-[auto]: rounded-sm' key={items.id}>
-                                <h3 className='text-[#8b7d6b] text-6xl capitalize w-[60%] text-center' style={{ marginBottom: '1rem' }}>{items.name}</h3>
-                                <p className='text-black text-7xl w-[60%] text-center'>{items.message}</p>
+                            <div className='grid place-content-center place-items-center w-[100%] min-h-[300px] max-[auto] rounded-sm' key={items.id}>
+                                <h3 className='text-[#8b7d6b] text-6xl capitalize w-[100%] text-center' style={{ marginBottom: '1rem' }}>{items.name}</h3>
+                                <p className='text-black text-7xl w-[85%] text-center'>{items.message}</p>
                             </div>
                         )
                     })}

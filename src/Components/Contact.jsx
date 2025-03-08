@@ -10,7 +10,7 @@ const Contact = () => {
 
             <div className='flex-1 self-center w-[100%]' style={{ paddingBottom: '3rem' }}>
                 <SubHeading text="Let's Get in Touch" />
-                <form action="" className="lg:p-16" style={{ padding: '0px 2rem' }}>
+                <form action="" className="" style={{ padding: '0px 2rem' }}>
 
                     <div className="relative">
                         <label htmlFor='full-name' className="flex items-center mb-2 text-gray-600 text-lg font-bold">Full Name

@@ -1,32 +1,39 @@
 import React from 'react'
 import { links } from './data'
 import { Link } from 'react-router-dom'
+import Logo from '../assets/images/UC-logo.png'
 
 const Footer = () => {
     return (
         <>
-            <footer className="footer sm:footer-horizontal text-base-content">
-                <div className="section-center flex flex-col md:flex-row text-white">
+            <footer className="footer-container text-neutral-content text-center">
+                <div className='section-center flex flex-col lg:flex-row footer sm:footer-horizontal'>
 
-                    <address className='flex-2 text-3xl text-center self-center' style={{ padding: '2rem' }}>
-                        820, Omaxe New Hazratganj <br /> Sec-6, GOMTINAGAR - 226022
-                    </address>
+                    <section className='flex-1 justify-center text-2xl'>
+                        <img src={Logo} alt="logo" className=' w-[100%] h-[80%] object-contain' />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae non odit voluptates illum cupiditate facere. Quasi, itaque. Cumque sed voluptates iste quae, totam delectus consectetur.</p>
+                    </section>
 
-
-                    <div className="flex-1 text-center text-3xl w-[100%] md:border-l-2 border-[#544a3e]" style={{ padding: '2rem' }}>
-                        <strong>Useful Links</strong>
+                    <nav className='flex-1 justify-center text-2xl text-center w-[100%]'>
+                        <h6 className="footer-title">useful Links</h6>
                         {links.map((link) => {
                             return (
-                                <div key={link.id}>
-                                    <Link to={link.url} style={{ fontSize: '1.5rem' }}>{link.text}</Link>
+                                <div key={link.id} className='capitalize text-center w-[100%]'>
+                                    <Link to={link.url} style={{ fontSize: '1.2rem' }}>{link.text}</Link>
                                 </div>
                             )
                         })}
-                    </div>
+                    </nav>
+
+                    <address className='flex-1 justify-center text-center text-2xl w-[100%]'>
+                        <h6 className="footer-title  w-[100%] text-center">Address</h6>
+                        820, Omaxe New Hazratganj <br /> Sec-6, GOMTINAGAR - 226022
+                    </address>
                 </div>
             </footer>
+
             <footer className="text-center bg-[#8B7D6B] flex justify-center" style={{ padding: '1.3rem 0px' }}>
-                <p className='text-center w-[80%]'>Copyright © {new Date().getFullYear()} - All right reserved by <strong className=''>Urban Crescent</strong> Ltd</p>
+                <p className='text-center w-[80%]'>Copyright © {new Date().getFullYear()} - All right reserved by <strong className=''>The White Sand</strong></p>
             </footer>
         </>
     )

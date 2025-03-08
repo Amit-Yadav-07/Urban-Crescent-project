@@ -11,7 +11,7 @@ const HomeVideo = () => {
 
                     <div className="flex flex-col lg:flex-row gap-4">
                         <div className="w-full flex-2 p-6 rounded-lg">
-                            <h4 className='text-5xl text-black'>Introducing Urban Crescent, our ultra luxury interior design venture in the Middle East</h4>
+                            <h3 className='text-5xl text-black'>Introducing Urban Crescent, our ultra luxury interior design venture in the Middle East</h3>
                         </div>
 
                         <div className="w-full flex-1 rounded-lg text-center self-center">

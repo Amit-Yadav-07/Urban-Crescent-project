@@ -19,7 +19,7 @@ const OurProcess = () => {
                             <div className="text-black text-center h-[auto] rounded-sm  divide-x-3 divide-dashed md:divide-amber-800" style={{ padding: '1rem' }} key={item.id}>
                                 <div className='flex justify-center'><img src={item.img} alt={item.heading} style={{ height: '9rem' }} /></div>
                                 <h3 className='text-1xl font-bold' style={{ padding: '0.5rem' }}>{item.heading}</h3>
-                                <p>{item.para}</p>
+                                <p className=' w-[90%]'>{item.para}</p>
                             </div>
 
 

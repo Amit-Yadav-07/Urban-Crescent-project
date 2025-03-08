@@ -12,7 +12,7 @@ const HomeAbout = () => {
                 </div>
                 <div className="flex-1 w-[100%]">
                     {/* <img className='rounded-2xl h-[100%] w-[100%] md:object-cover object-fill' src="https://images.pexels.com/photos/7633658/pexels-photo-7633658.jpeg?auto=compress&cs=tinysrgb&w=800" alt="" /> */}
-                    <div className="bg-[url('https://www.essajeesatelier.com/wp-content/uploads/2023/07/Sarah-Sham.jpg')] bg-right-top bg-fixed w-[100%] bg-no-repeat bg-auto min-h-[700px] h-auto rounded-2xl"></div>
+                    <div className="bg-[url('https://www.essajeesatelier.com/wp-content/uploads/2023/07/Sarah-Sham.jpg')] bg-fixed w-[100%] min-h-[700px] h-auto rounded-md"></div>
                 </div>
             </div>
         </div>
