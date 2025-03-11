@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { PortfolioSection } from './data'
 import SubHeading from './SubHeading'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Portfolio = () => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 2000, // Animation duration in milliseconds
+        });
+    }, []);
+
     return (
         <>
             <SubHeading text='Our Portfolio' />
@@ -11,7 +20,7 @@ const Portfolio = () => {
 
                     {PortfolioSection.map((items) => {
                         return (
-                            <figure className="" style={{ marginBottom: '1.6rem' }} key={items.id}>
+                            <figure className="" style={{ marginBottom: '1.6rem' }} key={items.id} data-aos="fade-right">
                                 <img className="h-auto max-w-full rounded-lg" src={items.image} alt="Gallery-image" loading='lazy' />
                             </figure>
                         )

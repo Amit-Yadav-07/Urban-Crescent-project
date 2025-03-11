@@ -161,4 +161,45 @@ export const HomeGallery = [
     { id: 5, img: 'https://images.pexels.com/photos/3356416/pexels-photo-3356416.jpeg?auto=compress&cs=tinysrgb&w=600' },
     { id: 6, img: 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&w=600' },
     { id: 7, img: 'https://images.pexels.com/photos/1863622/pexels-photo-1863622.jpeg?auto=compress&cs=tinysrgb&w=600' },
+];
+
+export const experience = [
+    {
+        id: 1,
+        heading: '10 years experience',
+        para: 'Estd. in 2014'
+    },
+    {
+        id: 2,
+        heading: '350,000 sqft',
+        para: 'currently under construction'
+    },
+    {
+        id: 3,
+        heading: '35 team members',
+        para: 'and growing'
+    },
+    {
+        id: 4,
+        heading: '100 projects',
+        para: 'completed successfully'
+    },
+]
+
+export const Accordions = [
+    {
+        id: 1,
+        question: 'How do I create an account?',
+        answer: 'Click the "Sign Up" button in the top right corner and follow the registration process.'
+    },
+    {
+        id: 2,
+        question: 'I forgot my password. What should I do ?',
+        answer: 'Click on "Forgot Password" on the login page and follow the instructions sent to your email.'
+    },
+    {
+        id: 3,
+        question: 'How do I update my profile information ?',
+        answer: "Go to 'My Account' settings and select 'Edit Profile' to make changes."
+    },
 ]

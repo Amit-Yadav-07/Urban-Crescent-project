@@ -167,14 +167,14 @@ nav {
 }
 
 .button {
-  padding: 2rem 1.5rem;
+  padding: 2rem 1rem;
   border: 2px solid var(--secondary-color);
   transition: var(--transition);
   letter-spacing: 2px;
   margin-top: 0.7rem;
-  /* background-color: #a59886; */
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--secondary-color);
+  font-family: var(--para-font);
 }
 
 .button:hover {

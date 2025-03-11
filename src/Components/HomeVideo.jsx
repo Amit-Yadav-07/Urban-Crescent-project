@@ -1,6 +1,7 @@
 import React from 'react'
 import Btn from './Btn'
 import video from '../assets/images/video.mp4'
+import Video from './Video'
 
 const HomeVideo = () => {
     return (
@@ -9,7 +10,7 @@ const HomeVideo = () => {
             <div className="flex items-center justify-center  p-4" style={{ margin: '5rem 0px' }}>
                 <div className="container section-center">
 
-                    <div className="flex flex-col lg:flex-row gap-4">
+                    <div className="flex flex-col lg:flex-row gap-4" style={{ marginBottom: '5rem' }}>
                         <div className="w-full flex-2 p-6 rounded-lg">
                             <h3 className='text-5xl text-black'>Introducing Urban Crescent, our ultra luxury interior design venture in the Middle East</h3>
                         </div>
@@ -18,9 +19,7 @@ const HomeVideo = () => {
                             <Btn text='Explore Urban Crescent' />
                         </div>
                     </div>
-                    <video controls autoPlay muted loop className='w-full object-cover' style={{ marginTop: '5rem', height: '500px' }}>
-                        <source src={video} type='video/mp4' />
-                    </video>
+                    <Video video={video} height={'500px'} width={'100%'} />
                 </div>
             </div>
 
