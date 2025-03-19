@@ -1,6 +1,8 @@
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { HomeLayout, Error, Home, Portfolio, Contact, About } from './Components/index'
+import { HomeLayout, Error, Home, Portfolio, Contact, About, Studio } from './Components/index'
+import Example from './Components/Example'
+
 
 function App() {
 
@@ -21,7 +23,7 @@ function App() {
         },
         {
           path: '/studio',
-          element: <h1>Studio page</h1>
+          element: <Studio />
         },
         {
           path: '/about',
@@ -30,6 +32,10 @@ function App() {
         {
           path: '/contact',
           element: <Contact />
+        },
+        {
+          path: '/example',
+          element: <Example />
         },
       ]
     }

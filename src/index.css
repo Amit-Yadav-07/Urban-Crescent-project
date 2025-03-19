@@ -81,7 +81,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.9rem;
 }
 .nav-toggle {
   font-size: 1.5rem;
@@ -96,7 +96,7 @@ nav {
   transform: rotate(90deg);
 }
 .logo {
-  height: 40px;
+  height: 2.3rem;
 }
 .links a {
   color: var(--primary-color);
@@ -107,9 +107,10 @@ nav {
   padding: 0.5rem 1rem;
   transition: var(--transition);
 }
+
 .links a:hover {
   background: var(--primary-color);
-  color: var(--primary-color);
+  color: var(--secondary-color);
   padding-left: 1.5rem;
 }
 .social-icons {
@@ -152,6 +153,7 @@ nav {
   .links a:hover {
     padding: 0;
     background: transparent;
+    color: aliceblue;
   }
   .social-icons {
     display: flex;
@@ -198,6 +200,11 @@ nav {
   align-items: center;
   flex-direction: column;
   text-align: center;
+}
+
+.overlay-section p {
+  font-size: 1.6rem;
+  color: aliceblue;
 }
 
 /* featured section */

@@ -8,7 +8,7 @@ const HomePortfolio = () => {
             <h3 className='text-black text-4xl'>Our Latest interior Designs</h3>
             <p className='text-black'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ipsam.</p>
 
-            <section className="flex gap-4" style={{ marginTop: '3rem' }}>
+            <section className="flex gap-4" style={{ marginTop: '3rem' }} data-aos='fade-left'>
                 <div className="carousel carousel-center rounded-box max-w-[100%] gap-4 h-[550px]">
                     {HomeGallery.map((items) => {
                         return (
@@ -22,8 +22,6 @@ const HomePortfolio = () => {
 
                 </div>
 
-
-                {/* <div className="flex-1 bg-amber-700">rtg</div> */}
             </section>
         </div>
     )

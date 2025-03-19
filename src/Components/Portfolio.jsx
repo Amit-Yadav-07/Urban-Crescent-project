@@ -1,33 +1,123 @@
-import React, { useEffect } from 'react'
-import { PortfolioSection } from './data'
-import SubHeading from './SubHeading'
-import AOS from "aos";
-import "aos/dist/aos.css";
+import SubHeading from "./SubHeading";
+import Slider from "react-slick";
+import Btn from './Btn'
+import { portfolioSectionOne } from "./data";
 
 const Portfolio = () => {
 
-    useEffect(() => {
-        AOS.init({
-            duration: 2000, // Animation duration in milliseconds
-        });
-    }, []);
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        pauseOnHover: true
+    };
 
     return (
         <>
-            <SubHeading text='Our Portfolio' />
-            <section className='section-center' style={{ margin: '0rem auto 3rem auto' }}>
-                <div className="columns-1 md:columns-2 xl:columns-3 gap-5">
+            <section className="section-center grid text-center grid-cols-1 lg:grid-cols-2 gap-10" style={{ margin: '5rem auto' }}>
 
-                    {PortfolioSection.map((items) => {
-                        return (
-                            <figure className="" style={{ marginBottom: '1.6rem' }} key={items.id} data-aos="fade-right">
-                                <img className="h-auto max-w-full rounded-lg" src={items.image} alt="Gallery-image" loading='lazy' />
-                            </figure>
-                        )
-                    })}
-
-
+                <div className="text-black self-center" data-aos='fade-right'>
+                    <SubHeading text='A Timeless Legacy' style={'0rem auto 1rem auto'} />
+                    <strong className="text-center block">MUMBAI, MAHARASHTRA</strong>
+                    <p className="" style={{ margin: '1rem auto 1.5rem auto' }}>Adding an old world charm to a 6200 sq. ft. corporate office</p>
+                    <Btn text='Explore Project' />
                 </div>
+
+                <div className="" data-aos='fade-left'>
+                    <Slider {...settings}>
+
+                        {portfolioSectionOne.map((items) => {
+
+                            return <img src={items.img} alt="" key={items.id} />
+                        })}
+
+                    </Slider>
+                </div>
+
+                {/* second */}
+
+                <div className="" style={{ margin: '3rem 0px' }} data-aos='fade-right'>
+                    <Slider {...settings}>
+
+                        {portfolioSectionOne.map((items) => {
+                            return <img src={items.img} alt="" key={items.id} />
+                        })}
+
+                    </Slider>
+                </div>
+
+                <div className="text-black self-center" data-aos='fade-left'>
+                    <SubHeading text='A Timeless Legacy' style={'0rem auto 1rem auto'} />
+                    <strong className="text-center block">MUMBAI, MAHARASHTRA</strong>
+                    <p className="" style={{ margin: '1rem auto 1.5rem auto' }}>Adding an old world charm to a 6200 sq. ft. corporate office</p>
+                    <Btn text='Explore Project' />
+                </div>
+
+                {/* second end */}
+
+                {/* third */}
+                <div className="text-black self-center" data-aos='fade-right'>
+                    <SubHeading text='A Timeless Legacy' style={'0rem auto 1rem auto'} />
+                    <strong className="text-center block">MUMBAI, MAHARASHTRA</strong>
+                    <p className="" style={{ margin: '1rem auto 1.5rem auto' }}>Adding an old world charm to a 6200 sq. ft. corporate office</p>
+                    <Btn text='Explore Project' />
+                </div>
+
+                <div className="" style={{ margin: '3rem 0px' }} data-aos='fade-left'>
+                    <Slider {...settings}>
+
+                        {portfolioSectionOne.map((items) => {
+                            return <img src={items.img} alt="" key={items.id} />
+                        })}
+
+                    </Slider>
+                </div>
+                {/* third end */}
+
+                {/* four */}
+
+                <div className="" style={{ margin: '3rem 0px' }} data-aos='fade-right'>
+                    <Slider {...settings}>
+
+                        {portfolioSectionOne.map((items) => {
+                            return <img src={items.img} alt="" key={items.id} />
+                        })}
+
+                    </Slider>
+                </div>
+
+                <div className="text-black self-center" data-aos='fade-left'>
+                    <SubHeading text='A Timeless Legacy' style={'0rem auto 1rem auto'} />
+                    <strong className="text-center block">MUMBAI, MAHARASHTRA</strong>
+                    <p className="" style={{ margin: '1rem auto 1.5rem auto' }}>Adding an old world charm to a 6200 sq. ft. corporate office</p>
+                    <Btn text='Explore Project' />
+                </div>
+
+                {/* fourth end */}
+
+                {/* five */}
+
+                <div className="text-black self-center" data-aos='fade-right'>
+                    <SubHeading text='A Timeless Legacy' style={'0rem auto 1rem auto'} />
+                    <strong className="text-center block">MUMBAI, MAHARASHTRA</strong>
+                    <p className="" style={{ margin: '1rem auto 1.5rem auto' }}>Adding an old world charm to a 6200 sq. ft. corporate office</p>
+                    <Btn text='Explore Project' />
+                </div>
+
+                <div className="" style={{ margin: '3rem 0px' }} data-aos='fade-left'>
+                    <Slider {...settings}>
+
+                        {portfolioSectionOne.map((items) => {
+                            return <img src={items.img} alt="" key={items.id} />
+                        })}
+
+                    </Slider>
+                </div>
+
+                {/* five end */}
             </section>
         </>
     )

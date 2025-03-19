@@ -203,3 +203,10 @@ export const Accordions = [
         answer: "Go to 'My Account' settings and select 'Edit Profile' to make changes."
     },
 ]
+
+
+export const portfolioSectionOne = [
+    { id: 1, img: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    { id: 2, img: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    { id: 3, img: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600' },
+]

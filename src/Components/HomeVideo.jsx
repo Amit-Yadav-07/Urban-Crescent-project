@@ -10,7 +10,7 @@ const HomeVideo = () => {
             <div className="flex items-center justify-center  p-4" style={{ margin: '5rem 0px' }}>
                 <div className="container section-center">
 
-                    <div className="flex flex-col lg:flex-row gap-4" style={{ marginBottom: '5rem' }}>
+                    <div className="flex flex-col lg:flex-row gap-4" data-aos='fade-right' style={{ marginBottom: '5rem' }}>
                         <div className="w-full flex-2 p-6 rounded-lg">
                             <h3 className='text-5xl text-black'>Introducing Urban Crescent, our ultra luxury interior design venture in the Middle East</h3>
                         </div>

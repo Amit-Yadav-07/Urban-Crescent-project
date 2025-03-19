@@ -18,9 +18,9 @@ const HomeTestimonials = () => {
 
     return (
         <div className='section-center'>
-            <SubHeading text='What Our Client Says' />
-            {/*  */}
-            <div className="md:w-[70%] bg-gray-50 rounded-md" style={{ margin: '0px auto 3rem auto' }}>
+            <SubHeading text='What Our Client Says' style={'3rem auto 3rem auto'} />
+
+            <div className="md:w-[70%] bg-gray-50 rounded-md" data-aos='fade-right' style={{ margin: '0px auto 3rem auto' }}>
                 <Slider {...settings}>
                     {Testimonials.map((items) => {
                         return (

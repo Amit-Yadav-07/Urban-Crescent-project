@@ -7,12 +7,15 @@ import { FaFacebook } from "react-icons/fa";
 import Logo from '../assets/images/UC-logo.png'
 
 const Navbar = () => {
+
     const [showLinks, setShowLinks] = useState(false);
     const linksContainerRef = useRef(null);
     const linksRef = useRef(null);
     const toggleLinks = () => {
         setShowLinks(!showLinks);
     };
+
+
     useEffect(() => {
         const linksHeight = linksRef.current.getBoundingClientRect().height;
         if (showLinks) {
@@ -21,12 +24,18 @@ const Navbar = () => {
             linksContainerRef.current.style.height = '0px';
         }
     }, [showLinks]);
+
+    const closeMenu = () => {
+        setShowLinks(false);
+    };
+
+
     return (
         <nav className='nav-container'>
             <div className='nav-center'>
                 <div className='nav-header'>
                     <Link to='/'><img src={Logo} className='logo object-contain' alt='logo' /></Link>
-
+                    
                     <button className='nav-toggle' onClick={toggleLinks}>
                         <FaBars />
                     </button>
@@ -37,7 +46,7 @@ const Navbar = () => {
                             const { id, url, text } = link;
                             return (
                                 <li key={id}>
-                                    <Link to={url}>{text}</Link>
+                                    <Link to={url} onClick={closeMenu}>{text}</Link>
                                 </li>
                             );
                         })}
