@@ -13,7 +13,7 @@ const HomeLayout = () => {
             <Navbar />
             <Outlet />
             <Footer />
-            <Link to='https://api.whatsapp.com/send?phone=8795881802' target='_blank' className='fixed md:bottom-10 md:right-10 bottom-5 right-5 w-auto'><img src={Whatsapp} alt="" className='h-[65px]' /></Link>
+            <Link to='https://api.whatsapp.com/send?phone=8795881802' target='_blank' className='fixed md:bottom-10 md:right-10 bottom-5 right-5 w-auto'><img src={Whatsapp} alt="whatsapp-icon" className='h-[60px]' /></Link>
             {/* <ReactWhatsapp number='8795881802' /> */}
         </>
     )

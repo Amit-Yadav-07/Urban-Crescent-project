@@ -205,8 +205,60 @@ export const Accordions = [
 ]
 
 
-export const portfolioSectionOne = [
-    { id: 1, img: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600' },
-    { id: 2, img: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600' },
-    { id: 3, img: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600' },
-]
+export const portfolioSections = [
+    {
+        id: 1,
+        title: 'A Timeless Legacy',
+        location: 'MUMBAI, MAHARASHTRA',
+        description: 'Adding an old world charm to a 6200 sq. ft. corporate office',
+        images: [
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600'
+        ]
+    },
+    {
+        id: 2,
+        title: 'Modern Elegance',
+        location: 'DELHI, INDIA',
+        description: 'Redefining sophistication in a 5000 sq. ft. workspace',
+        images: [
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600'
+        ]
+    },
+    {
+        id: 3,
+        title: 'Innovative Design',
+        location: 'BANGALORE, INDIA',
+        description: 'Merging technology and aesthetics in a dynamic co-working space',
+        images: [
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600'
+        ]
+    },
+    {
+        id: 4,
+        title: 'Classic Touch',
+        location: 'KOLKATA, INDIA',
+        description: 'Bringing a traditional aesthetic to a contemporary setting',
+        images: [
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600'
+        ]
+    },
+    {
+        id: 5,
+        title: 'Futuristic Vision',
+        location: 'HYDERABAD, INDIA',
+        description: 'A cutting-edge approach to workspace architecture',
+        images: [
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
+            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600'
+        ]
+    }
+];

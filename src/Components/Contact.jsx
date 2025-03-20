@@ -33,7 +33,7 @@ const Contact = () => {
 
         } else {
             console.log("Error", data);
-            setResult(data.message);
+            setResult(data?.message);
         }
 
     }
