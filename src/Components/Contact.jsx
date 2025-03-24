@@ -41,8 +41,8 @@ const Contact = () => {
     return (
         <>
             <section className='flex flex-col lg:flex-row gap-8 section-center'>
-                <div className='flex-1 md:h-auto' data-aos='fade-right'>
-                    <img className='h-[100%] w-[100%] aspect-3/4 object-cover' src="https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&w=600" alt="image" />
+                <div className='flex-1 h-[600px] self-center' data-aos='fade-right'>
+                    <img className='h-[100%] w-[100%] rounded-md object-cover' src="https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&w=600" alt="image" />
                 </div>
 
                 <div className='flex-1 self-center w-[100%]' style={{ paddingBottom: '3rem' }} data-aos='fade-left'>

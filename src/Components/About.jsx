@@ -46,9 +46,11 @@ const About = () => {
                     </div>
                     <div className="flex-2 text-black">
                         <img className='h-auto w-[100%] object-cover rounded-md' data-aos='fade-left' src="https://www.essajeesatelier.com/wp-content/uploads/2023/04/Sarah-Sham.jpg" alt="Owner-img" /><br />
-                        <p className=''>Sarah is a part of the fourth-generation 130-year old Essajees family. She completed her undergraduate degree at Duke University and Oxford University with a major in Art History in the top 10% of her class.</p><br />
-                        <p>During Sarah's 5 years at Essajees, she has worked on some of India's biggest projects, after which she went on to garner 10 years of experience as an independent designer. Having worked in high-end craftsmanship at Essajees, she went on to complete a 2-year interior design degree from Rachna Sansad, Mumbai, graduating top of her class and with accolades for projects completed through the duration of the course.</p><br />
-                        <p>Since starting Essajees Atelier in 2014, Sarah and her team have won numerous awards including Interior Designer of the Year by WADE Asia, India Design's top 10 Interior Designers In India, and Trends Magazine's award for the Best Hospitality Project of the year amongst many others.</p>
+                        <div data-aos='fade-right'>
+                            <p className=''>Sarah is a part of the fourth-generation 130-year old Essajees family. She completed her undergraduate degree at Duke University and Oxford University with a major in Art History in the top 10% of her class.</p><br />
+                            <p>During Sarah's 5 years at Essajees, she has worked on some of India's biggest projects, after which she went on to garner 10 years of experience as an independent designer. Having worked in high-end craftsmanship at Essajees, she went on to complete a 2-year interior design degree from Rachna Sansad, Mumbai, graduating top of her class and with accolades for projects completed through the duration of the course.</p><br />
+                            <p>Since starting Essajees Atelier in 2014, Sarah and her team have won numerous awards including Interior Designer of the Year by WADE Asia, India Design's top 10 Interior Designers In India, and Trends Magazine's award for the Best Hospitality Project of the year amongst many others.</p>
+                        </div>
                     </div>
                 </div>
                 <hr className='text-black' style={{ marginBottom: '3rem' }} />
@@ -60,7 +62,7 @@ const About = () => {
                 <div className="flex-1">
                     <SubHeading text='The team' style={'0px 0px 0px 0px'} />
                 </div>
-                <div className="flex-2 text-black">
+                <div className="flex-2 text-black" data-aos='fade-left'>
                     <p>Essajees Atelier has a team of 35, and growing, young, curious, and extremely talented design professionals. The team is a mix of architects and interior designers from different parts of the country. It consists of members who have completed their Masters from prestigious universities as well as those who ran their own studios before joining Essajees Atelier. The team is made up of diverse backgrounds but is united in their enthusiasm, positive outlook, eagerness to learn, and is incredibly focused and process-oriented.</p><br />
                     <p>Every project Essajees Atelier undertakes is allotted to dedicated teams that work with the clients from start to finish.</p>
                 </div>
@@ -73,10 +75,10 @@ const About = () => {
 
                     {Accordions.map((items) => {
                         return (
-                            <div className="collapse collapse-arrow join-item border-base-300 border" style={{ padding: '0.5rem' }} key={items.id}>
+                            <div className="collapse collapse-arrow join-item" style={{ padding: '0.5rem', borderBottom: '1px solid #8b7d6b' }} key={items.id}>
                                 <input type="radio" name="my-accordion-4" defaultChecked />
-                                <div className="collapse-title font-semibold">{items.question}</div>
-                                <div className="collapse-content text-sm">{items.answer}</div>
+                                <div className="collapse-title font-bold text-md">{items.question}</div>
+                                <div className="collapse-content text-lg">{items.answer}</div>
                             </div>
                         )
                     })}

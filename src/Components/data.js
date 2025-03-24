@@ -190,13 +190,13 @@ export const Accordions = [
     {
         id: 1,
         question: 'How do I create an account?',
-        answer: 'Click the "Sign Up" button in the top right corner and follow the registration process.'
-    },
-    {
-        id: 2,
-        question: 'I forgot my password. What should I do ?',
-        answer: 'Click on "Forgot Password" on the login page and follow the instructions sent to your email.'
-    },
+            answer: 'Click the "Sign Up" button in the top right corner and follow the registration process.'
+        },
+        {
+            id: 2,
+            question: 'I forgot my password. What should I do ?',
+            answer: 'Click on "Forgot Password" on the login page and follow the instructions sent to your email.'
+        },
     {
         id: 3,
         question: 'How do I update my profile information ?',

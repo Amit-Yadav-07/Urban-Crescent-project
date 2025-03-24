@@ -25,6 +25,7 @@ body {
   background-color: var(--primary-color);
   min-height: 100vh;
   height: auto;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -96,7 +97,7 @@ nav {
   transform: rotate(90deg);
 }
 .logo {
-  height: 2.3rem;
+  height: 2.8rem;
 }
 .links a {
   color: var(--primary-color);
@@ -308,7 +309,7 @@ nav {
 
 .slick-prev:before,
 .slick-next:before {
-  color: var(--secondary-color) !important;
+  /* color: var(--secondary-color) !important; */
   font-size: 1.6rem !important;
 }
 

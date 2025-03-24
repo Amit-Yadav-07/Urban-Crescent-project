@@ -17,9 +17,9 @@ const Portfolio = () => {
 
     return (
         <>
-            <section className="section-center flex flex-col lg:flex-wrap text-center gap-10 justify-center items-center" style={{ margin: '3rem auto' }}>
+            <section className="section-center flex flex-col lg:flex-wrap text-center gap-0 justify-center items-center" style={{ margin: '3rem auto' }}>
                 {portfolioSections?.map((section, index) => (
-                    <div key={section.id} className={`flex flex-col  ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-10 items-center w-full`} style={{ margin: '2rem 0px' }}>
+                    <div key={section.id} className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-10 items-center w-full`} style={{ margin: '2rem 0px' }}>
                         {/* Text Section */}
                         <div className="text-black w-full lg:w-1/2 self-center" data-aos='fade-right'>
                             <SubHeading text={section.title} style={'0rem auto 1rem auto'} />
@@ -29,10 +29,10 @@ const Portfolio = () => {
                         </div>
 
                         {/* Image Slider Section */}
-                        <div className="w-full lg:w-1/2" data-aos='fade-left'>
+                        <div className="w-full lg:w-1/2 grow" data-aos='fade-left'>
                             <Slider {...settings}>
                                 {section?.images?.map((img, idx) => (
-                                    <img className="object-contain rounded-sm" src={img} alt="" key={idx} />
+                                    <img className="object-contain rounded-md" src={img} alt="" key={idx} />
                                 ))}
                             </Slider>
                         </div>

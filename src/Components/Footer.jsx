@@ -10,8 +10,8 @@ const Footer = () => {
                 <div className='section-center flex flex-col lg:flex-row footer sm:footer-horizontal'>
 
                     <section className='flex-1 justify-center text-2xl'>
-                        <img src={Logo} alt="logo" className=' w-[100%] h-[80%] object-contain' />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae non odit voluptates illum cupiditate facere. Quasi, itaque. Cumque sed voluptates iste quae, totam delectus consectetur.</p>
+                        <img src={Logo} alt="logo" className='w-[100%] h-[70%] object-contain' />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae non odit voluptates. Quasi, voluptates iste quae, totam delectus consectetur.</p>
                     </section>
 
                     <nav className='flex-1 justify-center text-2xl text-center w-[100%]'>

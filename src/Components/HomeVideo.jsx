@@ -19,7 +19,7 @@ const HomeVideo = () => {
                             <Btn text='Explore Urban Crescent' />
                         </div>
                     </div>
-                    <Video video={video} height={'500px'} width={'100%'} />
+                    <Video video={video} height={'450px'} width={'100%'} />
                 </div>
             </div>
 
