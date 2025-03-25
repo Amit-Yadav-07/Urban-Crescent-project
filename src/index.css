@@ -25,13 +25,14 @@ body {
   background-color: var(--primary-color);
   min-height: 100vh;
   height: auto;
-  overflow-x: hidden;
+  width: 100%;
+  /* overflow-x: hidden; */
 }
 
 h1 {
   font-family: var(--heading-font);
   color: var(--secondary-color);
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 h2 {
@@ -51,7 +52,7 @@ h3 {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: var(--para-font);
 }
 
@@ -78,12 +79,14 @@ nav {
   top: 0%;
   width: 100%;
 }
+
 .nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.9rem;
 }
+
 .nav-toggle {
   font-size: 1.5rem;
   color: var(--primary-color);
@@ -97,11 +100,11 @@ nav {
   transform: rotate(90deg);
 }
 .logo {
-  height: 2.8rem;
+  height: 2rem;
 }
 .links a {
   color: var(--primary-color);
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
@@ -163,6 +166,7 @@ nav {
     margin: 0 0.5rem;
     color: var(--primary-color);
     transition: var(--transition);
+    font-size: 1rem;
   }
   .social-icons a:hover {
     color: var(--primary-color);
@@ -170,12 +174,12 @@ nav {
 }
 
 .button {
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
   border: 2px solid var(--secondary-color);
   transition: var(--transition);
   letter-spacing: 2px;
   margin-top: 0.7rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: var(--secondary-color);
   font-family: var(--para-font);
 }

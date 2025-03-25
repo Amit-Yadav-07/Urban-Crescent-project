@@ -33,7 +33,7 @@ const Footer = () => {
             </footer>
 
             <footer className="text-center bg-[#8B7D6B] flex justify-center" style={{ padding: '1.3rem 0px' }}>
-                <p className='text-center w-[80%]'>Copyright © {new Date().getFullYear()} - All right reserved by <strong className=''>The White Sand</strong></p>
+                <p className='text-center text-white w-[80%]'>Copyright © {new Date().getFullYear()} - All right reserved by <strong className=''>Urban Crescent</strong></p>
             </footer>
         </>
     )
