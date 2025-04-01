@@ -1,11 +1,9 @@
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { HomeLayout, Error, Home, Portfolio, Contact, About, Studio } from './Components/index'
-import Example from './Components/Example'
-
+import { ThemeProvider } from './ThemeContext'
 
 function App() {
-
   const router = createBrowserRouter([
 
     {
@@ -33,17 +31,16 @@ function App() {
           path: '/contact',
           element: <Contact />
         },
-        {
-          path: '/example',
-          element: <Example />
-        },
       ]
     }
   ])
 
   return (
     <>
-      <RouterProvider router={router} />
+
+      <ThemeProvider>
+        <RouterProvider router={router} />
+      </ThemeProvider>
     </>
   )
 }

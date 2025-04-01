@@ -36,7 +36,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <hr className='text-black' />
+                <hr className='text-[#8b7d6b]' />
 
                 <div className='h-auto flex flex-col lg:flex-row gap-5' style={{ margin: '3rem 0px' }}>
                     <div className="flex-1 ">
@@ -53,7 +53,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <hr className='text-black' style={{ marginBottom: '3rem' }} />
+                <hr className='text-[#8b7d6b]' style={{ marginBottom: '3rem' }} />
             </section>
 
             <figure className='h-[650px] bg-[url("https://www.essajeesatelier.com/wp-content/uploads/2023/05/The-Team-new.jpg")] bg-center bg-cover bg-no-repeat bg-fixed' style={{ marginBottom: '3rem' }}></figure>
@@ -71,7 +71,7 @@ const About = () => {
             {/* accordions start */}
             <section className='flex justify-center flex-col' style={{ margin: '3rem auto' }}>
                 <SubHeading text="frequently asked questions" style={'3rem auto 3rem auto'} />
-                <div className="join join-vertical section-center text-black">
+                <div className="join join-vertical section-center " data-aos='fade-left'>
 
                     {Accordions.map((items) => {
                         return (

@@ -18,7 +18,7 @@ const Card = () => {
                     imgGrid.map((item) => {
                         return (
                             <figure className='container' key={item.id} data-aos='fade-up'>
-                                <img className='h-[450px] w-[100%] md:object-cover object-fill rounded-md' src={item.img} alt="images" loading='lazy' />
+                                <img className='h-[400px] w-[100%] md:object-cover object-fill rounded-md' src={item.img} alt="images" loading='lazy' />
                                 <div className="overlay rounded-md">
                                     <div className="text">{item.text}</div>
                                 </div>

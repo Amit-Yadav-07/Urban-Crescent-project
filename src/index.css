@@ -9,6 +9,16 @@
   scroll-behavior: smooth;
 }
 
+:root[data-theme='light'] {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+:root[data-theme='dark'] {
+  --bg-color: #191919;
+  --text-color: #ffffff;
+}
+
 :root {
   --primary-color: white;
   --secondary-color: #8b7d6b;
@@ -22,11 +32,12 @@
 
 html,
 body {
-  background-color: var(--primary-color);
+  background-color: var(--bg-color);
   min-height: 100vh;
   height: auto;
   width: 100%;
-  /* overflow-x: hidden; */
+  /* user-select: none; */
+  overflow-x: hidden;
 }
 
 h1 {
@@ -54,6 +65,7 @@ h3 {
 p {
   font-size: 1rem;
   font-family: var(--para-font);
+  /* color: var(--text-color); */
 }
 
 .section-center {
@@ -192,6 +204,8 @@ nav {
 .banner-container {
   height: 90vh;
   position: relative;
+  width: 100%;
+  /* margin-top: 3.5rem; */
 }
 
 .overlay-section {
@@ -313,7 +327,7 @@ nav {
 
 .slick-prev:before,
 .slick-next:before {
-  /* color: var(--secondary-color) !important; */
+  color: var(--bg-color) !important;
   font-size: 1.6rem !important;
 }
 
