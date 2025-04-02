@@ -11,7 +11,7 @@ const Footer = () => {
         <>
             <footer className="footer-container text-neutral-content text-center">
 
-                <div className='section-center flex md:flex-row flex-col gap-5'>
+                <div className='section-center flex md:flex-row flex-col lg:gap-0 gap-10'>
 
                     <section className='flex-1 justify-center text-2xl h-[100px] self-center'>
                         <img src={Logo} alt="logo" className='w-[100%] h-[100%] object-contain' />
@@ -44,13 +44,13 @@ const Footer = () => {
 
                 <hr className='w-[85%]' style={{ margin: '1rem auto' }} />
 
-                <div className='section-center flex flex-col gap-1 lg:flex-row footer sm:footer-horizontal'>
+                <div className='section-center flex flex-col lg:flex-row footer sm:footer-horizontal lg:gap-0 gap-10'>
 
                     <div className='footer-part-1 flex lg:grow-1 w-[100%] self-center justify-center'>
                         <div className='self-center'><FaLocationDot className='text-2xl self-center' /></div>
                         <div className=''>
-                            <h6 className='text-2xl ' style={{ margin: '0px 0px 0.5rem 0px' }}>Find Us</h6>
-                            <address className=''>820, Omaxe New Hazratganj <br /> Sec-6, GOMTINAGAR - 226022</address>
+                            <h6 className='text-2xl' style={{ margin: '0px 0px 0.5rem 0px' }}>Find Us</h6>
+                            <address className='text-1xl'>820, Omaxe New Hazratganj <br /> Sec-6, GOMTINAGAR - 226022</address>
                         </div>
                     </div>
 

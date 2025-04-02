@@ -20,7 +20,7 @@ const HomeTestimonials = () => {
         <div className='section-center'>
             <SubHeading text='What Our Client Says' style={'3rem auto 3rem auto'} />
 
-            <div className="md:w-[100%] rounded-xl" data-aos='fade-right' style={{ margin: '0px auto 3rem auto', padding: "1rem 0px" }}>
+            <div className="md:w-[100%] bg-gray-100" data-aos='fade-right' style={{ margin: '0px auto 3rem auto', padding: "0rem 0px" }}>
                 <Slider {...settings}>
                     {Testimonials.map((items) => {
                         return (

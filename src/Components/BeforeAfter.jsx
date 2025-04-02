@@ -8,6 +8,7 @@ const BeforeAfter = () => {
             <p className='text-black text-center' style={{ marginTop: '-3rem', marginBottom: '3rem' }}>With Essajees Atelier, transforming your space is as smooth an experience as sliding this bar</p>
 
             {/* before n after start */}
+
             <figure className="diff aspect-16/9 lg:h-[500px] h-[auto]  rounded-md" tabIndex={0} data-aos='fade-right' style={{ marginBottom: '3rem' }}>
 
                 <div className="diff-item-1 flex" role="img">

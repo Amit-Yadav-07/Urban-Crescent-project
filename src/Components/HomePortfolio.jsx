@@ -8,21 +8,21 @@ const HomePortfolio = () => {
             <h3 className='text-black text-4xl'>Our Latest interior Designs</h3>
             <p className='text-black'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ipsam.</p>
 
-            <section className="flex gap-4" style={{ marginTop: '3rem' }} data-aos='fade-left'>
-                <div className="carousel carousel-center rounded-box max-w-[100%] gap-4 lg:h-[500px] h-[500px] ">
-                    {HomeGallery.map((items) => {
-                        return (
-                            <div className="carousel-item" key={items.id}>
-                                <img
-                                    src={items.img}
-                                    className="rounded-box w-[400px]" loading='lazy' />
-                            </div>
-                        )
-                    })}
+            <div className="carousel carousel-center w-auto rounded-box gap-4 lg:h-[500px] h-[500px]" style={{ marginTop: '3rem' }}>
+                {HomeGallery.map((items) => {
+                    return (
 
-                </div>
+                        <div className="carousel-item" key={items.id}>
+                            <img
+                                src={items.img}
+                                className="rounded-box w-[100%]" loading='lazy' />
+                        </div>
+                    )
+                })}
 
-            </section>
+            </div>
+
+            {/* <section className="flex gap-4 section-center" style={{ marginTop: '3rem' }} data-aos='fade-left'></section> */}
         </div>
     )
 

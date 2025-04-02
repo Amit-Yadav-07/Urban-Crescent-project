@@ -11,7 +11,7 @@ const OurProcess = () => {
             <section className="section-center">
                 <SubHeading text='Over 200,000 sq ft of premium commercial and residential spaces in execution globally' style={'3rem auto 3rem auto'} />
                 <h3 className='text-center text-5xl text-black'>Our Process</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 featured-container" data-aos='fade-right'>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 featured-container">
                     {Process.map((item) => {
                         return (
 
