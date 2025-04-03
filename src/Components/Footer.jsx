@@ -57,7 +57,7 @@ const Footer = () => {
                     <div className='footer-part-1 flex lg:grow-2 w-[100%] justify-center'>
                         <div className='self-center'><FaPhoneAlt className='text-2xl self-center' /></div>
                         <div className=''>
-                            <h6 className='text-2xl' style={{ margin: '0px 0px 0.5rem 0px' }}>Call Us</h6>
+                            <h6 className='text-2xl text-white' style={{ margin: '0px 0px 0.5rem 0px' }}>Call Us</h6>
                             <p>+ 91 9721479125 , 9721479125</p>
                         </div>
                     </div>

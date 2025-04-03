@@ -7,7 +7,7 @@ const HomeVideo = () => {
     return (
         <>
 
-            <div className="flex items-center justify-center  p-4" style={{ margin: '5rem 0px' }}>
+            <div className="flex items-center justify-center p-4" style={{ margin: '5rem 0px' }}>
                 <div className="container section-center">
 
                     <div className="flex flex-col lg:flex-row gap-4" data-aos='fade-right' style={{ marginBottom: '5rem' }}>

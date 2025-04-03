@@ -65,7 +65,7 @@ h3 {
 p {
   font-size: 1rem;
   font-family: var(--para-font);
-  /* color: var(--text-color); */
+  color: var(--text-color);
 }
 
 .section-center {

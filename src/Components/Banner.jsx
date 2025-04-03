@@ -10,7 +10,6 @@ const Banner = () => {
     return (
         <>
             <section className='banner-container'>
-
                 <Video video={video} poster='https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=600' height={'100%'} width={'100%'} />
 
                 <div className='overlay-section'>

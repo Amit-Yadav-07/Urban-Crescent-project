@@ -12,7 +12,7 @@ const HomePortfolio = () => {
                 {HomeGallery.map((items) => {
                     return (
 
-                        <div className="carousel-item" key={items.id}>
+                        <div className="carousel-item" key={items.id} data-aos='fade-left'>
                             <img
                                 src={items.img}
                                 className="rounded-box w-[100%]" loading='lazy' />

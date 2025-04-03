@@ -15,7 +15,7 @@ const HomeLayout = () => {
             <Outlet />
             <Footer />
 
-            <button className='fixed z-50 bottom-10 left-7 text-2xl' onClick={() => { toggleTheme(!theme) }}>
+            <button className='fixed z-50 bottom-10 left-7 text-3xl' onClick={() => { toggleTheme(!theme) }}>
                 {theme === "light" ? "🌙" : "☀️"}
             </button>
 
