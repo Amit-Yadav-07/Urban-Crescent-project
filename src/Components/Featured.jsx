@@ -5,7 +5,7 @@ import SubHeading from './SubHeading'
 const Featured = () => {
     return (
         <>
-            <div className='section-center' data-aos='fade-right'>
+            <div className='section-center'>
                 <SubHeading text='Award winning global luxury design company, crafting unique spaces since 2014' style={'3rem auto 3rem auto'} />
                 <div className="flex flex-col xl:flex-row gap-4 featured-container" style={{ marginTop: '3rem' }}>
                     <div className="md:flex-1  p-6 rounded-lg text-start self-center">

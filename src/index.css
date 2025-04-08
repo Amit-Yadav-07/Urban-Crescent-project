@@ -35,7 +35,8 @@ body {
   background-color: var(--bg-color);
   min-height: 100vh;
   height: auto;
-  width: 100%;
+  min-width: 100%;
+  color: var(--text-color);
   /* user-select: none; */
   /* overflow-x: hidden; */
 }
@@ -66,11 +67,16 @@ p {
   font-size: 1rem;
   font-family: var(--para-font);
   color: var(--text-color);
+  /* width: 100%; */
 }
 
 .section-center {
   width: 85%;
   margin: 0px auto;
+}
+
+.test {
+  background-color: var(--bg-color);
 }
 
 /*
@@ -342,4 +348,12 @@ nav {
 input,
 textarea {
   padding: 0.7rem;
+}
+
+.test {
+  transition: var(--transition);
+}
+
+.test:hover {
+  transform: scale(1.1);
 }

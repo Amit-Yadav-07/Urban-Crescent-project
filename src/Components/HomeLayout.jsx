@@ -5,12 +5,14 @@ import Footer from './Footer'
 // import { IoLogoWhatsapp } from "react-icons/io";
 import Whatsapp from '../assets/images/whatsapp (1).png'
 import { ThemeContext } from '../ThemeContext';
+import ScrollToTop from './ScrollToTop'
 
 const HomeLayout = () => {
 
     const { theme, toggleTheme } = useContext(ThemeContext);
     return (
         <div className=''>
+            <ScrollToTop />
             <Navbar />
             <Outlet />
             <Footer />

@@ -2,10 +2,14 @@
 import React from 'react';
 import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
-import img1 from '../assets/images/01.gif'
-import img2 from '../assets/images/02.gif'
-import img3 from '../assets/images/03.gif'
-import img4 from '../assets/images/04.gif'
+import img1 from '../assets/images/folder.png'
+import img2 from '../assets/images/design-thinking.png'
+import img3 from '../assets/images/execute.png'
+import img4 from '../assets/images/key.png'
+
+import productOne from '../assets/images/product-img/img1.jpeg'
+import productTwo from '../assets/images/product-img/img2.jpeg'
+import productThree from '../assets/images/product-img/img3.jpeg'
 
 export const links = [
     {
@@ -89,22 +93,22 @@ export const Process = [
 export const imgGrid = [
     {
         id: 1,
-        img: 'https://images.pexels.com/photos/3097112/pexels-photo-3097112.jpeg?auto=compress&cs=tinysrgb&w=600',
+        img: productThree,
         text: 'Residential'
     },
     {
         id: 2,
-        img: 'https://images.pexels.com/photos/534172/pexels-photo-534172.jpeg?auto=compress&cs=tinysrgb&w=600',
+        img: 'https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&w=600',
         text: 'Furniture'
     },
     {
         id: 3,
-        img: 'https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg?auto=compress&cs=tinysrgb&w=600',
+        img: productOne,
         text: 'Commercial'
     },
     {
         id: 4,
-        img: 'https://images.pexels.com/photos/534172/pexels-photo-534172.jpeg?auto=compress&cs=tinysrgb&w=600',
+        img: productTwo,
         text: 'Residential'
     },
 ]
@@ -190,13 +194,13 @@ export const Accordions = [
     {
         id: 1,
         question: 'How do I create an account?',
-            answer: 'Click the "Sign Up" button in the top right corner and follow the registration process.'
-        },
-        {
-            id: 2,
-            question: 'I forgot my password. What should I do ?',
-            answer: 'Click on "Forgot Password" on the login page and follow the instructions sent to your email.'
-        },
+        answer: 'Click the "Sign Up" button in the top right corner and follow the registration process.'
+    },
+    {
+        id: 2,
+        question: 'I forgot my password. What should I do ?',
+        answer: 'Click on "Forgot Password" on the login page and follow the instructions sent to your email.'
+    },
     {
         id: 3,
         question: 'How do I update my profile information ?',
