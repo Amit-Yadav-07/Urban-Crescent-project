@@ -32,7 +32,7 @@ const Footer = () => {
 
 
                     <div className='flex-1 self-center gap-3'>
-                        <div className='flex justify-evenly text-2xl gap-3'>
+                        <div className='flex justify-evenly text-3xl gap-3'>
                             <Link><FaFacebook /></Link>
                             <Link><FaInstagram /></Link>
                             <Link><FaXTwitter /></Link>

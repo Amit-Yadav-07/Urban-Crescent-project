@@ -1,6 +1,6 @@
 import React from 'react'
 import Video from './Video'
-import video from '../assets/images/video.mp4'
+import video from '../assets/Videos/Banner-video.mp4'
 import SubHeading from './SubHeading'
 import { Accordions, experience } from './data'
 

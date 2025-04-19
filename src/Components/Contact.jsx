@@ -36,7 +36,7 @@ const Contact = () => {
             <section className="grid lg:grid-cols-2 grid-cols-1 gap-8 section-center px-4 sm:px-6 md:px-8 mt-12" style={{ margin: '3rem auto' }}>
                 {/* Image Section */}
                 <div
-                    className="h-[400px] lg:h-[600px] rounded self-center bg-[url('https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&w=600')] bg-cover bg-no-repeat"
+                    className="h-[400px] lg:h-[600px] rounded self-center bg-[url('https://images.unsplash.com/photo-1649511134921-67afc567280c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDUyfHx8ZW58MHx8fHx8')] bg-cover bg-no-repeat"
                     data-aos="fade-right"
                 ></div>
 

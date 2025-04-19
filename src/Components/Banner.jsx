@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
-import video from '../assets/images/video.mp4'
+import Video from './Video'
+import BannerVideo from '../assets/Videos/video.mp4'
 import Btn from './Btn'
 import { FaArrowDown } from "react-icons/fa";
-import Video from './Video';
 import { Link } from 'react-router-dom';
 
 const Banner = () => {
@@ -10,7 +10,7 @@ const Banner = () => {
     return (
         <>
             <section className='banner-container'>
-                <Video video={video} poster='https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=600' height={'100%'} width={'100%'} />
+                <Video video={BannerVideo} poster='https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=600' height={'100%'} width={'100%'} />
 
                 <div className='overlay-section'>
                     <h1 className='text-5xl lg:text-7xl w-[70%] text-white' data-aos='fade-right'>Welcome to Urban Crescent</h1>

@@ -11,7 +11,7 @@ const HomeAbout = () => {
 
                 <div className=" self-center text-black">
                     <h3 className='text-5xl' style={{ marginBottom: "2rem" }}>About Us</h3>
-                    <p className='' style={{ fontSize: '1.2rem' }}>Essajees Atelier is a global design company offering end-to-end services in the realm of luxury interiors. We pride ourselves on our unmatched aesthetic and attention to detail, which we bring in at every stage – from planning to handovers.</p><br />
+                    <p className='big-text' style={{ fontSize: '1.2rem' }}>Essajees Atelier is a global design company offering end-to-end services in the realm of luxury interiors. We pride ourselves on our unmatched aesthetic and attention to detail, which we bring in at every stage – from planning to handovers.</p><br />
                     <p style={{ fontSize: '1.2rem' }}>We take on a select number of clients; we see ourselves as your partners right from the beginning and craft all our projects from scratch.</p>
                 </div>
 

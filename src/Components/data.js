@@ -10,6 +10,51 @@ import img4 from '../assets/images/key.png'
 import productOne from '../assets/images/product-img/img1.jpeg'
 import productTwo from '../assets/images/product-img/img2.jpeg'
 import productThree from '../assets/images/product-img/img3.jpeg'
+import productFour from '../assets/images/product-img/section-three/portfolio-section-2.jpg'
+
+// portfolio_section_img one
+import portfolioSectionOneImgOne from '../assets/images/product-img/section-one/portfolio-section-1.jpg'
+import portfolioSectionOneImgTwo from '../assets/images/product-img/section-one/portfolio-section-2.jpg'
+import portfolioSectionOneImgThree from '../assets/images/product-img/section-one/portfolio-section-3.jpg'
+import portfolioSectionOneImgFour from '../assets/images/product-img/section-one/portfolio-section-4.jpg'
+
+// portfolio_section_img two
+import portfolioSectionTwoImgOne from '../assets/images/product-img/section-two/portfolio-section-one.jpg'
+import portfolioSectionTwoImgTwo from '../assets/images/product-img/section-two/portfolio-section-two.jpg'
+import portfolioSectionTwoImgThree from '../assets/images/product-img/section-two/portfolio-section-three.jpg'
+import portfolioSectionTwoImgFour from '../assets/images/product-img/section-two/portfolio-section-four.jpg'
+
+// portfolio_section_img three
+// import portfolioSectionThreeImgOne from '../assets/images/product-img/section-three/portfolio-section-1.jpg'
+import portfolioSectionThreeImgTwo from '../assets/images/product-img/section-three/portfolio-section-2.jpg'
+import portfolioSectionThreeImgThree from '../assets/images/product-img/section-three/portfolio-section-3.jpg'
+import portfolioSectionThreeImgFour from '../assets/images/product-img/section-three/portfolio-section-4.jpg'
+
+// portfolio_section_img four
+import portfolioSectionFourImgOne from '../assets/images/product-img/section-four/portfolio-section-1.jpg'
+import portfolioSectionFourImgTwo from '../assets/images/product-img/section-four/portfolio-section-2.jpg'
+import portfolioSectionFourImgThree from '../assets/images/product-img/section-four/portfolio-section-3.jpg'
+import portfolioSectionFourImgFour from '../assets/images/product-img/section-four/portfolio-section-4.jpg'
+
+// portfolio_section_img four
+import portfolioSectionFiveImgOne from '../assets/images/product-img/section-five/portfolio-section-1.jpg'
+import portfolioSectionFiveImgTwo from '../assets/images/product-img/section-five/portfolio-section-2.jpg'
+import portfolioSectionFiveImgThree from '../assets/images/product-img/section-five/portfolio-section-3.jpg'
+import portfolioSectionFiveImgFour from '../assets/images/product-img/section-five/portfolio-section-4.jpg'
+
+
+// portfolio_section_images
+
+import portfolio1 from '../assets/images/product-img/section-one/portfolio-section-1.jpg'
+import portfolio2 from '../assets/images/product-img/section-two/portfolio-section-one.jpg'
+import portfolio3 from '../assets/images/product-img/section-two/portfolio-section-three.jpg'
+import portfolio4 from '../assets/images/product-img/section-img.jpg'
+import portfolio5 from '../assets/images/product-img/section-five/portfolio-section-1.jpg'
+import portfolio6 from '../assets/images/product-img/section-five/portfolio-section-3.jpg'
+import portfolio7 from '../assets/images/product-img/section-three/portfolio-section-2.jpg'
+import portfolio8 from '../assets/images/product-img/section-five/portfolio-section-4.jpg'
+import portfolio9 from '../assets/images/product-img/WhatsApp Image 2025-04-14 at 17.43.14_424b2bcf.jpg'
+// import portfolio10 from 'https://images.pexels.com/photos/210464/pexels-photo-210464.jpeg?auto=compress&cs=tinysrgb&w=600'
 
 export const links = [
     {
@@ -98,7 +143,7 @@ export const imgGrid = [
     },
     {
         id: 2,
-        img: 'https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&w=600',
+        img: productFour,
         text: 'Furniture'
     },
     {
@@ -144,16 +189,16 @@ export const Testimonials = [
 
 
 export const PortfolioSection = [
-    { id: 1, image: 'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
-    { id: 2, image: 'https://images.pexels.com/photos/53577/hotel-architectural-tourism-travel-53577.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
-    { id: 3, image: 'https://images.pexels.com/photos/1454804/pexels-photo-1454804.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
-    { id: 4, image: 'https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
-    { id: 5, image: 'https://images.pexels.com/photos/210464/pexels-photo-210464.jpeg?auto=compress&cs=tinysrgb&w=600https://images.pexels.com/photos/210464/pexels-photo-210464.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
-    { id: 6, image: 'https://images.pexels.com/photos/275484/pexels-photo-275484.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
-    { id: 7, image: 'https://images.pexels.com/photos/189333/pexels-photo-189333.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
-    { id: 8, image: 'https://images.pexels.com/photos/90319/pexels-photo-90319.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
-    { id: 9, image: 'https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
-    { id: 10, image: 'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
+    { id: 1, image: portfolio1, productName: '' },
+    { id: 2, image: portfolio2, productName: '' },
+    { id: 3, image: portfolio3, productName: '' },
+    { id: 4, image: portfolio4, productName: '' },
+    { id: 5, image: portfolio5, productName: '' },
+    { id: 6, image: portfolio6, productName: '' },
+    { id: 7, image: portfolio7, productName: '' },
+    { id: 8, image: portfolio8, productName: '' },
+    { id: 9, image: portfolio9, productName: '' },
+    // { id: 10, image: 'https://images.pexels.com/photos/210464/pexels-photo-210464.jpeg?auto=compress&cs=tinysrgb&w=600', productName: '' },
 ]
 
 
@@ -216,9 +261,10 @@ export const portfolioSections = [
         location: 'MUMBAI, MAHARASHTRA',
         description: 'Adding an old world charm to a 6200 sq. ft. corporate office',
         images: [
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600'
+            portfolioSectionOneImgOne,
+            portfolioSectionOneImgTwo,
+            portfolioSectionOneImgThree,
+            portfolioSectionOneImgFour
         ]
     },
     {
@@ -227,9 +273,10 @@ export const portfolioSections = [
         location: 'DELHI, INDIA',
         description: 'Redefining sophistication in a 5000 sq. ft. workspace',
         images: [
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600'
+            portfolioSectionTwoImgOne,
+            portfolioSectionTwoImgTwo,
+            portfolioSectionTwoImgThree,
+            portfolioSectionTwoImgFour
         ]
     },
     {
@@ -238,9 +285,10 @@ export const portfolioSections = [
         location: 'BANGALORE, INDIA',
         description: 'Merging technology and aesthetics in a dynamic co-working space',
         images: [
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600'
+            // portfolioSectionThreeImgOne,
+            portfolioSectionThreeImgTwo,
+            portfolioSectionThreeImgThree,
+            portfolioSectionThreeImgFour
         ]
     },
     {
@@ -249,9 +297,10 @@ export const portfolioSections = [
         location: 'KOLKATA, INDIA',
         description: 'Bringing a traditional aesthetic to a contemporary setting',
         images: [
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600'
+            portfolioSectionFourImgTwo,
+            portfolioSectionFourImgOne,
+            portfolioSectionFourImgThree,
+            portfolioSectionFourImgFour
         ]
     },
     {
@@ -260,9 +309,10 @@ export const portfolioSections = [
         location: 'HYDERABAD, INDIA',
         description: 'A cutting-edge approach to workspace architecture',
         images: [
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600',
-            'https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600'
+            portfolioSectionFiveImgOne,
+            portfolioSectionFiveImgTwo,
+            portfolioSectionFiveImgThree,
+            portfolioSectionFiveImgFour
         ]
     }
 ];

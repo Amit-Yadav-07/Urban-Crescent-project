@@ -1,7 +1,7 @@
 import React from 'react'
 import Btn from './Btn'
-import video from '../assets/images/video.mp4'
 import Video from './Video'
+import VideoTwo from '../assets/Videos/video-1.mp4'
 
 const HomeVideo = () => {
     return (
@@ -19,7 +19,7 @@ const HomeVideo = () => {
                             <Btn text='Explore Urban Crescent' />
                         </div>
                     </div>
-                    <Video video={video} height={'400px'} width={'100%'} />
+                    <Video video={VideoTwo} height={'500px'} width={'100%'} />
                 </div>
             </div>
 

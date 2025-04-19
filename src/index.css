@@ -357,3 +357,9 @@ textarea {
 .test:hover {
   transform: scale(1.1);
 }
+
+.big-text::first-letter {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  padding-right: 0.3rem;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Btn from './Btn'
 import SubHeading from './SubHeading'
+import { Link } from 'react-router-dom'
 
 const Featured = () => {
     return (
@@ -18,7 +19,8 @@ const Featured = () => {
                     </div>
 
                     <div className="flex-1  p-6 rounded-lg lg:text-end text-center self-center">
-                        <Btn text='See All Projects' />
+                        {/* <Btn text='See All Projects' location='./Portfolio.jsx' /> */}
+                        <Link to='/Portfolio' className='btn btn-outline button'>See All Projects</Link>
                     </div>
                 </div>
             </div>
